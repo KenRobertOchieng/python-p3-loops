@@ -22,7 +22,6 @@ function fizzbuzzPrinter() {
     console.log(fizzbuzz(num));
   }
 }
-
 function fizzbuzz(num) {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
